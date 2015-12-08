@@ -17,7 +17,7 @@ def f1(kv={}):
 		rs = False
 		for c in content.split('\n'):
 			m = r.match(c)
-			if(m and not c in ld):
+			if(m and not c in ld and m.group('t') not in kv.keys()):
 				if(m.group('c')):
 					if(m.group('c').isdigit() or m.group('c') in kv.keys()):
 						if(m.group('c').isdigit()):
