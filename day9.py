@@ -42,5 +42,5 @@ for i in t:
     if(h < i):
         h = i
 
-print(l)
-print(h)
+print("Shortest : {}".format(l))
+print("Longest : {}".format(h))
