@@ -1,3 +1,4 @@
+#!/usr/bin/env python
 import re
 from string import ascii_lowercase
 
@@ -46,6 +47,5 @@ while(True):
 		print(ip)
 		if(g == 2):
 			break
-	
-	ip = f(ip)
 
+	ip = f(ip)

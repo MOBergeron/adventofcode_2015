@@ -1,3 +1,4 @@
+#!/usr/bin/env python
 import os
 
 f = open('input/{}.txt'.format(os.path.splitext(os.path.basename(__file__))[0]),'r')
@@ -40,7 +41,7 @@ for c in content:
 	x,y = (sx,sy)
 	if(not st):
 		x,y = (rx,ry)
-		
+
 	if((x,y) not in vh):
 		vh.append((x,y))
 		t += 1

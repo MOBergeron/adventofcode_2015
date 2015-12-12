@@ -1,3 +1,4 @@
+#!/usr/bin/env python
 
 ip = "1321131112"
 
@@ -23,7 +24,7 @@ for _ in xrange(50):
 		t += "{}{}".format(x[1],x[0])
 		x[0] = -1
 		x[1] = 1
-	
+
 	ip = t
 	if(_ == 39):
 		print(len(t))

@@ -1,3 +1,4 @@
+#!/usr/bin/env python
 import md5
 
 ms = "bgvyzdsv"
