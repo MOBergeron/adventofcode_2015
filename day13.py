@@ -39,5 +39,5 @@ def f(p=[]):
 
 	return hv
 
-print(f())
-print(f(['O']))
+print("Part 1 : {}".format(f()))
+print("Part 2 : {}".format(f(['O'])))
